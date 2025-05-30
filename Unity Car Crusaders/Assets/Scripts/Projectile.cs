@@ -2,12 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class Projectile : MonoBehaviour
 {
-    public float horizontalInput;
-    public float speed = 10.0f;
-    public float xRange = 10;
-    public GameObject projectilePrefab;
+    public GameObject[] projectilePrefabs;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +16,8 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            int projectileIndex = Random.Range(0, projectilePrefabs.Length);
+            Instantiate(projectilePrefabs[projectileIndex], transform.position, projectilePrefabs[projectileIndex].transform.rotation);
         }
     }
 }
