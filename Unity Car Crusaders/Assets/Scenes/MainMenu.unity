@@ -494,7 +494,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 410, y: 110}
+  m_AnchoredPosition: {x: 482.2, y: 110}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &507854004
@@ -1663,7 +1663,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 314, y: -159}
+  m_AnchoredPosition: {x: 358.2, y: -182.5}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1764527379
@@ -2047,9 +2047,11 @@ MonoBehaviour:
     "Super Retro Compact Car Pack" by Cheese
     Animal Productions
 
+    "SimplePoly City - Low Poly Assets" by VenCreations
 
-    Miami Lakes Educational Center, Information Technology
-    Academy, Mr. Gonzalez'
+
+    Miami
+    Lakes Educational Center, Information Technology Academy, Mr. Gonzalez'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
