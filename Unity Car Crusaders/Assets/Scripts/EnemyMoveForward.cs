@@ -22,10 +22,4 @@ public class EnemyMoveForward : MonoBehaviour
             transform.Translate(Vector3.forward * Time.deltaTime * speed);
         }
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        Destroy(other.gameObject);
-        Destroy(gameObject);
-    }
 }
