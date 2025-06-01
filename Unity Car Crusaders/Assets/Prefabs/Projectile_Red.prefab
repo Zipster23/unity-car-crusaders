@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1069970912807658473}
   - component: {fileID: 5356715130146109774}
   - component: {fileID: 6605470073059955071}
-  - component: {fileID: 331833582420080649}
+  - component: {fileID: 5776761971047778870}
   m_Layer: 0
   m_Name: Projectile_Red
   m_TagString: Untagged
@@ -106,7 +106,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &331833582420080649
+--- !u!114 &5776761971047778870
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5090530734365900492}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e38ab8f1fda00748837fd55bda5a515, type: 3}
+  m_Script: {fileID: 11500000, guid: c4d3141c6ea5c8742b2f5f016f4b3c08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40

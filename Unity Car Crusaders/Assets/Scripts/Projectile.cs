@@ -17,7 +17,7 @@ public class Projectile : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             int projectileIndex = Random.Range(0, projectilePrefabs.Length);
-            Instantiate(projectilePrefabs[projectileIndex], transform.position, projectilePrefabs[projectileIndex].transform.rotation);
+            Instantiate(projectilePrefabs[projectileIndex], transform.position, transform.rotation);
         }
     }
 }
