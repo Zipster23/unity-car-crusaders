@@ -24,7 +24,7 @@ public class Collectible : MonoBehaviour
 
     }
 
-    private void OnTrigerEnter(Collider other) {
+    private void OnTriggerEnter(Collider other) {
         
         // Makes it so that only the player can destroy the collectible. Model must have "Player" tag
         if(other.CompareTag("Player")) {
