@@ -8,10 +8,11 @@ public class EnemyMoveForward : MonoBehaviour
     // Start is called before the first frame update
 
     public float speed = 40.0f;
+    public float timeToLive = 1f;
 
     private void Start()
     {
-
+        Destroy(gameObject, timeToLive);
     }
 
     // Update is called once per frame

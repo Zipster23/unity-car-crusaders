@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DetectCollisions : MonoBehaviour
 {
+    public GameObject onCollectEffect;
+    public GameObject onCollectSoundEffect;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +19,10 @@ public class DetectCollisions : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other) {
+        Instantiate(onCollectEffect, transform.position, transform.rotation);
+        Instantiate(onCollectSoundEffect, transform.position, transform.rotation);
         Destroy(other.gameObject);
         Destroy(gameObject);
+
     }
 }
